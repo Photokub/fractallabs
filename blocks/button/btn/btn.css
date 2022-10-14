@@ -1,0 +1,127 @@
+.btn {
+    -webkit-transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    -moz-transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    -o-transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    -ms-transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    font-family: 'Roboto';
+    font-style: normal;
+    border: 1px solid #121212;
+    line-height: 1.5;
+    font-size: 14px;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    outline: none;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: bottom;
+}
+.btn:focus {
+    outline: none;
+}
+@media screen and (min-width: 30em) {
+    .btn {
+        max-width: 220px;
+    }
+    .btn.btn_small {
+        max-width: 180px;
+    }
+}
+
+
+.btn_clear {
+    background-color: transparent;
+}
+.btn_clear:hover {
+    background-color: #121212;
+    color: #fff;
+}
+.btn_clear.btn_light {
+    border-color: #fff;
+    color: #fff;
+}
+.btn_clear.btn_light:hover {
+    color: #121212;
+    background-color: #fff;
+}
+
+.btn_light:hover {
+    background-color: #121212;
+    color: #fff;
+}
+
+.btn_dark {
+    background-color: #121212;
+    color: #fff;
+    border-color: #fff;
+}
+.btn_dark:hover {
+    color: #807f83;
+}
+
+.btn_glitch {
+    transform: translateZ(0);
+    overflow: visible;
+}
+.btn_glitch.btn_glitch_active {
+    -webkit-filter: url("#filter");
+    filter: url("#filter");
+}
+.btn_glitch.btn_glitch_active::after, .btn_glitch.btn_glitch_active::before {
+    content: "";
+    width: 1px;
+    position: absolute;
+    top: -1px;
+    bottom: -1px;
+}
+.btn_glitch.btn_glitch_active::after {
+    left: -2px;
+    background-color: #ff536b;
+    animation: colorshift-red 2.6s infinite;
+    animation-timing-function: step-end;
+}
+.btn_glitch.btn_glitch_active::before {
+    right: -2px;
+    background-color: #3ffeff;
+    animation: colorshift-blue 2.6s infinite;
+    animation-timing-function: step-end;}
+
+
+
+@keyframes colorshift-red {
+    0%, 7% {
+        background-color: #ff536b;
+    }
+    8%, 18% {
+        background-color: transparent;
+    }
+    19% {
+        background-color: #ff536b;
+        width: 2px;
+    }
+    23%, 100% {
+        background-color: transparent;
+    }
+}
+@keyframes colorshift-blue {
+    0%, 7% {
+        background-color: #3ffeff;
+    }
+    8%, 18% {
+        background-color: transparent;
+    }
+    19% {
+        background-color: #3ffeff;
+        width: 2px;
+    }
+    23%, 100% {
+        background-color: transparent;
+    }
+}

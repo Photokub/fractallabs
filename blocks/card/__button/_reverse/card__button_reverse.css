@@ -1,0 +1,4 @@
+.card__button_reverse{
+    grid-column: 2/3;
+    /*justify-self: end;*/
+}

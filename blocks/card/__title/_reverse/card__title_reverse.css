@@ -1,0 +1,5 @@
+.card__title_reverse{
+    grid-column: 2/3;
+    justify-self: end;
+    text-align: end;
+}

@@ -1,0 +1,12 @@
+.lead__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 76px;
+    text-align: center;
+}

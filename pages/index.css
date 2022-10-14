@@ -1,0 +1,82 @@
+/* вендорные */
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts.css");
+
+/* page */
+@import url("../blocks/page/page.css");
+
+/*main*/
+@import url("../blocks/main/main.css");
+
+/*button*/
+@import url("../blocks/button/button.css");
+@import url("../blocks/button/_reverse/button_reverse.css");
+@import url("../blocks/button/btn/btn.css");
+
+/*header*/
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/__logo/header__logo.css");
+@import url("../blocks/header/__navigation/header__navigation.css");
+@import url("../blocks/header/__link/header__link.css");
+@import url("../blocks/header/__container/header__container.css");
+@import url("../blocks/header/_sticky/header_sticky.css");
+
+/*lead*/
+@import url("../blocks/lead/lead.css");
+@import url("../blocks/lead/__container/lead__container.css");
+@import url("../blocks/lead/__title/lead__title.css");
+@import url("../blocks/lead/__text/lead__text.css");
+
+/*intro*/
+@import url("../blocks/intro/intro.css");
+@import url("../blocks/intro/__title/intro__title.css");
+@import url("../blocks/intro/__container/intro__container.css");
+@import url("../blocks/intro/__img/intro__img.css");
+
+/*article*/
+@import url("../blocks/article/article.css");
+@import url("../blocks/article/__title/article__title.css");
+@import url("../blocks/article/__subtitle/article__subtitle.css");
+
+/*portfolio*/
+@import url("../blocks/portfolio/portfolio.css");
+@import url("../blocks/portfolio/__head/portfolio__head.css");
+/*@import url("../blocks/portfolio/__head-title/portfolio__head-title.css");*/
+
+/*card*/
+@import url("../blocks/card/card.css");
+@import url("../blocks/card/__title/card__title.css");
+@import url("../blocks/card/__text/card__text.css");
+@import url("../blocks/card/__button/card__button.css");
+@import url("../blocks/card/__image/card__image.css");
+@import url("../blocks/card/__title/_reverse/card__title_reverse.css");
+@import url("../blocks/card/__text/_reverse/card__text_reverse.css");
+@import url("../blocks/card/__button/_reverse/card__button_reverse.css");
+@import url("../blocks/card/__image/_reverse/card__image_reverse.css");
+
+/*story*/
+@import url("../blocks/story/story.css");
+
+/*team*/
+@import url("../blocks/team/team.css");
+@import url("../blocks/team/_list/team_list.css");
+@import url("../blocks/team/__container/team__container.css");
+@import url("../blocks/team/__figure/team__figure.css");
+@import url("../blocks/team/__figure/_list/figure_list.css");
+@import url("../blocks/team/__caption/team__caption.css");
+@import url("../blocks/team/__caption/_list/caption_list.css");
+@import url("../blocks/team/__image/team__image.css");
+@import url("../blocks/team/__title/team__title.css");
+@import url("../blocks/team/__text/team__text.css");
+
+/*ideas*/
+@import url("../blocks/ideas/ideas.css");
+@import url("../blocks/ideas/__container/ideas__container.css");
+@import url("../blocks/ideas/__title/ideas__title.css");
+@import url("../blocks/ideas/__text/ideas__text.css");
+@import url("../blocks/ideas/__contacts/ideas__contacts.css");
+@import url("../blocks/ideas/__contacts-icon/ideas__contacts-icon.css");
+
+/*footer*/
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__author/footer__author.css");

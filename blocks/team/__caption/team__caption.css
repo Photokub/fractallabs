@@ -1,0 +1,17 @@
+.team__caption{
+    font-family: 'The Girl Next Door';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+    color: #000000;
+
+    /*transform: rotate(-5.25deg);*/
+}

@@ -1,0 +1,6 @@
+.card__text_reverse{
+    grid-column: 2/3;
+    /*margin:0;*/
+    justify-self: end;
+    text-align: end;
+}

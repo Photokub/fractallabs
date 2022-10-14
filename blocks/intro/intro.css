@@ -1,0 +1,24 @@
+.intro{
+       /*width:1152px;*/
+       /*width:100%;*/
+       /*width: auto;*/
+       /*padding: 0 76px;*/
+       position: relative;
+       margin:0 auto;
+       /*display: grid;*/
+       /*grid-template-rows: 480px 220px;*/
+}
+
+@media screen and (max-width: 1440px){
+       .intro{
+              /*width: 100%;*/
+              padding: 0 10%;
+       }
+
+}@media screen and (max-width: 984px){
+       .intro{
+              /*width: 100%;*/
+              padding: 0 10%;
+              margin:0 ;
+       }
+}

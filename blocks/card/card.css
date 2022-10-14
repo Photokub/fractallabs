@@ -1,0 +1,15 @@
+.card {
+    max-width: 1152px;
+    padding: 0 80px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: repeat(3, minmax(95px, 1fr));
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    overflow:hidden;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-bottom:150px;
+    /*grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/
+    /*grid-template-columns: repeat(auto-fill, minmax(560px, 1fr));*/
+    /*grid-template-columns: repeat(auto-fill, 200px);*/
+}

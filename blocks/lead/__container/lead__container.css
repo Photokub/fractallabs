@@ -1,0 +1,23 @@
+.lead__container{
+    width: 1152px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1440px){
+    .lead__container{
+        width: 100%;
+        padding: 0 10%;
+    }
+}
+
+/*@media screen and (max-width: 1152px){*/
+/*    .lead__container{*/
+/*        padding: 0 76px;*/
+/*    }*/
+/*}*/
+
+
+

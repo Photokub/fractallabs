@@ -1,0 +1,62 @@
+#c1{
+    position:relative;
+    bottom:80px;
+    transform: rotate(-5deg);
+}
+
+#c2{
+    /*position:relative;*/
+    /*bottom:80px;*/
+    transform: rotate(-5deg);
+}
+
+#c3{
+    position:relative;
+    /*bottom:80px;*/
+    right:25%;
+    transform: rotate(10deg);
+}
+
+#c4{
+    position:relative;
+    bottom:25%;
+    right:10%;
+    /*transform: rotate(10deg);*/
+}
+
+#c5{
+    position:relative;
+    /*bottom:80px;*/
+    /*right:10%;*/
+    transform: rotate(5deg);
+}
+
+#c6{
+    position:relative;
+    /*bottom:80px;*/
+    /*right:10%;*/
+    transform: rotate(-5deg);
+}
+
+#c7{
+    position:relative;
+    bottom:60px;
+    right:10%;
+    transform: rotate(-10deg);
+}
+
+#c8{
+    position:relative;
+    /*bottom:80px;*/
+    /*right:10%;*/
+    transform: rotate(5deg);
+}
+
+#c9{
+    position:relative;
+    /*bottom:80px;*/
+    /*right:10%;*/
+    transform: rotate(-10deg);
+}
+
+

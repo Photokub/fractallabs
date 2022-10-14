@@ -1,0 +1,16 @@
+.lead__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FE9401;
+    margin: 0 0 10px;
+    text-align: center;
+    padding-right: 10px;
+    display: block;
+}
+
+.lead__title:last-child{
+    padding:0;
+}

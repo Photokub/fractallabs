@@ -1,0 +1,10 @@
+.ideas{
+    background-image: url("../../images/ideas-BG.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x:  60%;
+    height:600px;
+  padding-top: 250px;
+}
+

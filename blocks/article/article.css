@@ -1,0 +1,10 @@
+.article{
+    /*max-width:320px;*/
+    display: grid;
+    grid-template-columns: minmax(200px, 320px);
+    /*grid-template-rows: 2;*/
+    padding-right: 15px;
+}
+.article:last-child{
+    padding-right: 0;
+}

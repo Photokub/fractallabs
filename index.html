@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script
+            src="https://code.jquery.com/jquery-3.6.1.js"
+            integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+            crossorigin="anonymous"></script>
+    <title>Fractallabs</title>
+</head>
+
+<body class="page">
+<header class="header">
+    <div class="header__container">
+        <p class="header__logo">FRACTAL LABS</p>
+        <nav class="header__navigation">
+            <a href="#" class="header__link">ABOUT US</a>
+            <a href="#" class="header__link">SERVICES</a>
+            <a href="#" class="header__link">PORTFOLEO</a>
+            <a href="#" class="header__link">TEAM</a>
+        </nav>
+        <address class="header__contacts">
+            <img src="./images/phone.svg" alt="phone icon" class="header__contacts-icon">
+            <img src="./images/mail.svg" alt="mail icon" class="header__contacts-icon">
+            <img src="./images/fb.svg" alt="facebook icon" class="header__contacts-icon">
+        </address>
+    </div>
+</header>
+
+<main class="main">
+    <section class="lead">
+        <div class="lead__container">
+            <p class="lead__title">iOS Development</p>
+            <p class="lead__title">Android Development</p>
+            <p class="lead__title">UI/UX Design</p>
+            <p class="lead__title">Web Development</p>
+            <p class="lead__title">Project Management</p>
+            <p class="lead__title">Quality Assurance</p>
+        </div>
+        <p class="lead__text">We offer full-stack iOS, Android, and web development services paired with quality
+            design, quality assurance, and professional project management.</p>
+    </section>
+    <section class="intro">
+        <h1 class="intro__title">You have a great idea, we want to help you to grow it into a successful business.</h1>
+        <img class="intro__img" src="./images/stock-vector-797039932 3.png" alt="idea lamp">
+        <div class="intro__container">
+            <article class="article">
+                <h2 class="article__title">Your New Project Starts Here</h2>
+                <p class="article__subtitle">At Fractal Labs, we are an experienced tech startup team: experts in iOS
+                    and
+                    Android development, frontend, backend, DevOps, and system architecture. We bring experience from
+                    every
+                    aspect of a successful tech company, ranging from product design to project management.</p>
+            </article>
+            <article class="article">
+                <h2 class="article__title">Evolutionary Mindset</h2>
+                <p class="article__subtitle">To us, building software with an evolutionary mindset doesn't mean spending
+                    more time upfront, but instead being mindful of the current requirements in a manner that ensures
+                    future
+                    pivots are relatively painless. This guarantees the best product now and a codebase that won't
+                    become a
+                    burden as your users, your own creativity, and ambition demand growth at a faster rate.</p>
+            </article>
+            <article class="article">
+                <h2 class="article__title">Software Fractals</h2>
+                <p class="article__subtitle">We see the software business in fractals: similar patterns evolving into
+                    larger
+                    trends over time. As software products are born and begin to mature, the fractals start to unfold.
+                    From
+                    the initial idea to enhancing all the beautiful intricacies at the finest resolutions, we genuinely
+                    love
+                    the art of creating and enhancing new products.</p>
+            </article>
+        </div>
+    </section>
+    <section class="portfolio">
+        <div class="portfolio__head"></div>
+        <div class="card">
+            <h3 class="card__title">Total Keto Diet</h3>
+            <p class="card__text">With nearly one million users, Total Keto Diet is one of our most successful iOS apps
+                to date. The free application is currently #177 in Food and Drink in the Apple App Store, and proudly
+                holds a 4.7/5 rating with more than 3,500 reviews.
+            </p>
+            <div class="button">
+                <svg style="position: absolute; width: 0; height: 0;" width="0" height="0"   class="svg_sprite">
+                    <defs>
+                        <filter id="filter">
+                            <feTurbulence type="fractalNoise" baseFrequency="0.000001 0.000001" numOctaves="1" result="warp"
+                                          seed="1"></feTurbulence>
+                            <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic"
+                                               in2="warp"></feDisplacementMap>
+                        </filter>
+                    </defs>
+                </svg>
+                <div class="btn btn_small btn_dark btn_glitch">LEARN MORE</div>
+            </div>
+            <img src="./images/stock-1591846150.png" alt="Total keto diet" class="card__image">
+        </div>
+        <div class="card">
+            <h3 class="card__title card__title_reverse">Plastic World</h3>
+            <p class="card__text card__text_reverse">One of the leading apps for news, events, exhibitions, and
+                innovative research in the
+                world of plastic. The app automatically synthesizes data and research from numerous platforms in order
+                to provide the latest and most relevant information to users.</p>
+            <div class="button button_reverse">
+                <svg style="position: absolute; width: 0; height: 0;" width="0" height="0"   class="svg_sprite">
+                    <defs>
+                        <filter id="filter">
+                            <feTurbulence type="fractalNoise" baseFrequency="0.000001 0.000001" numOctaves="1" result="warp"
+                                          seed="1"></feTurbulence>
+                            <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic"
+                                               in2="warp"></feDisplacementMap>
+                        </filter>
+                    </defs>
+                </svg>
+                <div class="btn btn_small btn_dark btn_glitch">LEARN MORE</div>
+            </div>
+            <img src="./images/stock-vector-figure-1377786059.png" alt="Total keto diet"
+                 class="card__image card__image_reverse">
+        </div>
+        <div class="card">
+            <h3 class="card__title">Trekkie Calculator</h3>
+            <p class="card__text">As Fractal Labs first published app, this Trekkie Caclulator is inspired by the LCARS
+                operating system - allowing users to feel like they're standing on the bridge of the Enterprise. The
+                elegant button and display animations make this app outstanding to all those who love Star Trek.</p>
+            <div class="button">
+                <svg style="position: absolute; width: 0; height: 0;" width="0" height="0"   class="svg_sprite">
+                    <defs>
+                        <filter id="filter">
+                            <feTurbulence type="fractalNoise" baseFrequency="0.000001 0.000001" numOctaves="1" result="warp"
+                                          seed="1"></feTurbulence>
+                            <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic"
+                                               in2="warp"></feDisplacementMap>
+                        </filter>
+                    </defs>
+                </svg>
+                <div class="btn btn_small btn_dark btn_glitch">LEARN MORE</div>
+            </div>
+            <img src="./images/stock-vector-vulcan-salute-2016452696.png" alt="Total keto diet" class="card__image">
+        </div>
+        <div class="card">
+            <h3 class="card__title card__title_reverse">Coffeeology</h3>
+            <p class="card__text card__text_reverse">This app is used to preorder coffee at your favorite cafes, find
+                promo codes, and as a cash back system. It is currently live in two cafes in St. Petersburg, with plans
+                to roll out to more throughout Russia in 2020. While most of our apps are React Native or Swift, we
+                built this app using Flutter.</p>
+            <div class="button button_reverse">
+                <svg style="position: absolute; width: 0; height: 0;" width="0" height="0"   class="svg_sprite">
+                    <defs>
+                        <filter id="filter">
+                            <feTurbulence type="fractalNoise" baseFrequency="0.000001 0.000001" numOctaves="1" result="warp"
+                                          seed="1"></feTurbulence>
+                            <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic"
+                                               in2="warp"></feDisplacementMap>
+                        </filter>
+                    </defs>
+                </svg>
+                <div class="btn btn_small btn_dark btn_glitch">LEARN MORE</div>
+            </div>
+            <img src="./images/stock-vector-handwritten-lettering-coffee-645934786.png" alt="Total keto diet"
+                 class="card__image card__image_reverse">
+        </div>
+    </section>
+    <section class="story">
+        <div class="card">
+            <h3 class="card__title">Our Story</h3>
+            <p class="card__text">Fractal Labs was born out of another startup attempt dating back to 2017. Austin Wood
+                (CEO Fractal Labs) joined the JustHive team as Chief Technology Officer – growing the team from 4 to 15
+                engineers in only 18 months. He searched relentlessly for the best mobile and backend developers around
+                the world, and ultimately assembled a group that worked seamlessly together. When JustHive folded, the
+                majority of engineers decided to continue working together to create the high-quality products we knew
+                we were capable of. Now in 2020, we continue our startup journey together through Fractal Labs.</p>
+            <div class="button">
+                <svg style="position: absolute; width: 0; height: 0;" width="0" height="0"   class="svg_sprite">
+                    <defs>
+                        <filter id="filter">
+                            <feTurbulence type="fractalNoise" baseFrequency="0.000001 0.000001" numOctaves="1" result="warp"
+                                          seed="1"></feTurbulence>
+                            <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic"
+                                               in2="warp"></feDisplacementMap>
+                        </filter>
+                    </defs>
+                </svg>
+                <div class="btn btn_small btn_dark btn_glitch">OUR TEAM</div>
+            </div>
+            <img src="./images/Austin-Wood-04.png" alt="Total keto diet" class="card__image">
+        </div>
+    </section>
+    <section class="team">
+        <div class="team__container">
+            <figure class="team__figure" id="f1">
+                <img src="./images/team-01.png" alt="team-01" class="team__image" id="t1">
+                <figcaption class="team__caption" id="c1">Austin Wood<br>Founder & Lead Engineer</figcaption>
+            </figure>
+            <figure class="team__figure" id="f2">
+                <img src="./images/team-02.png" alt="team-02" class="team__image" id="t2">
+                <figcaption class="team__caption" id="c2">Alexis Thompson<br>Senior Project Manager</figcaption>
+            </figure>
+            <figure class="team__figure" id="f3">
+                <img src="./images/team-03.png" alt="team-03" class="team__image" id="t3">
+                <figcaption class="team__caption" id="c3">Ethan Salem<br>Project Manager</figcaption>
+            </figure>
+            <figure class="team__figure" id="f4">
+                <img src="./images/team-04.png" alt="team-04" class="team__image" id="t4">
+                <figcaption class="team__caption" id="c4">Dina Wood<br>Designer</figcaption>
+            </figure>
+            <figure class="team__figure" id="f5">
+                <img src="./images/team-05.png" alt="team-05" class="team__image" id="t5">
+                <figcaption class="team__caption" id="c5">Denis Prosic<br>Lead Mobile Engineer</figcaption>
+            </figure>
+            <figure class="team__figure" id="f6">
+                <img src="./images/team-06.png" alt="team-06" class="team__image" id="t6">
+                <figcaption class="team__caption" id="c6">John Balon<br>Lead Systems Architect
+                </figcaption>
+            </figure>
+            <figure class="team__figure" id="f7">
+                <img src="./images/team-07.png" alt="team-07" class="team__image" id="t7">
+                <figcaption class="team__caption" id="c7">Dmytro Tipakov<br>Software Engineer</figcaption>
+            </figure>
+            <figure class="team__figure" id="f8">
+                <img src="./images/team-08.png" alt="team-08" class="team__image" id="t8">
+                <figcaption class="team__caption" id="c8">George Wang<br>Software Engineer</figcaption>
+            </figure>
+            <figure class="team__figure" id="f9">
+                <img src="./images/team-09.png" alt="team-09" class="team__image" id="t9">
+                <figcaption class="team__caption" id="c9">Johnny Lang<br>Software Engineer</figcaption>
+            </figure>
+            <img src="./images/stock-vector-continuous-one-line-drawing-building-1330425404.png"
+                 alt="one line drawning buildings" class="team__image" id="t10">
+            <h3 class="card__title team__title">Our Team</h3>
+            <p class="card__text team__text">As a team, we have shipped millions of dollars of software and have
+                developed methods that help us leverage each other's areas of expertise.</p>
+        </div>
+    </section>
+    <section class="ideas">
+        <div class="ideas__container">
+            <h3 class="card__title ideas__title">Have a Project in Mind?</h3>
+            <p class="card__text ideas__text">Contact us for a free custom quote today.</p>
+            <div class="button button_reverse">
+                <svg style="position: absolute; width: 0; height: 0;" width="0" height="0"   class="svg_sprite">
+                    <defs>
+                        <filter id="filter">
+                            <feTurbulence type="fractalNoise" baseFrequency="0.000001 0.000001" numOctaves="1" result="warp"
+                                          seed="1"></feTurbulence>
+                            <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic"
+                                               in2="warp"></feDisplacementMap>
+                        </filter>
+                    </defs>
+                </svg>
+                <div class="btn btn_small btn_dark btn_glitch">SHARE YOUR IDEA</div>
+            </div>
+            <address class="ideas__contacts">
+                <img src="./images/phone.svg" alt="phone icon" class="ideas__contacts-icon">
+                <img src="./images/mail.svg" alt="mail icon" class="ideas__contacts-icon">
+                <img src="./images/fb.svg" alt="facebook icon" class="ideas__contacts-icon">
+            </address>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="footer__author">
+        <p class="card__text">Developed and designed by Aleksandr Kubyshkin &#xa9 2022</p>
+    </div>
+</footer>
+</body>
+<script src="./pages/index.js"></script>
+</html>

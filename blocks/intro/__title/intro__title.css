@@ -1,0 +1,12 @@
+.intro__title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+
+    color: #FE9401;
+
+    max-width:624px;
+    margin: 90px 0 120px 0;
+}

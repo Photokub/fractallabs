@@ -1,0 +1,68 @@
+#t1{
+/*grid-area: one;*/
+    transform: rotate(-5deg);
+}
+
+#t2{
+/*grid-area: two;*/
+/*    grid-column: 2/4;*/
+    transform: rotate(-5deg);
+    width: 90%;
+    justify-self: center;
+}
+
+#t3{
+/*grid-area: six;*/
+    transform: rotate(10deg);
+    width: 80%;
+    align-self: start;
+    justify-self: center;
+}
+
+#t4{
+/*grid-area: four;*/
+    width:80%;
+    justify-self: center;
+    align-self: end;
+}
+
+#t5{
+/*grid-area:five;*/
+    transform: rotate(5deg);
+}
+
+#t6{
+/*grid-area:seven;*/
+    transform: rotate(-5deg);
+    width:80%;
+    align-self: start;
+    justify-self: center;
+}
+
+#t7{
+/*grid-area:nine;*/
+    transform: rotate(-10deg);
+    width:70%;
+    justify-self: center;
+    align-self: end;
+}
+
+#t8{
+/*grid-area: ten;*/
+    transform: rotate(5deg);
+}
+
+#t9{
+/*grid-area:eleven;*/
+    transform: rotate(-10deg);
+    width:80%;
+    justify-self: center;
+}
+
+#t10{
+    grid-area: eight;
+    align-self: end;
+    width:120%;
+    justify-self: center;
+    align-self: end;
+}

@@ -1,0 +1,9 @@
+.team{
+    /*max-width: 1152px;*/
+    padding: 0 80px;
+    box-sizing: border-box;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    max-width: 1152px;
+    margin: 0 auto;
+}

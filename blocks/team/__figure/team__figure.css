@@ -1,0 +1,6 @@
+.team__figure{
+    margin:0;
+    /*height: 100%;*/
+    /*display: inline;*/
+    max-height: 280px;
+}
