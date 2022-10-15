@@ -34,16 +34,37 @@
 
 <main class="main">
     <section class="lead">
-        <div class="lead__container">
-            <p class="lead__title">iOS Development</p>
-            <p class="lead__title">Android Development</p>
-            <p class="lead__title">UI/UX Design</p>
-            <p class="lead__title">Web Development</p>
-            <p class="lead__title">Project Management</p>
-            <p class="lead__title">Quality Assurance</p>
+<!--        <img src="./images/lead_BG.png" alt="" class="lead__bg">-->
+        <div class="lead__bg">
+            <div class="lead__container">
+                <p class="lead__title">iOS Development</p>
+                <p class="lead__title">Android Development</p>
+                <p class="lead__title">UI/UX Design</p>
+                <p class="lead__title">Web Development</p>
+                <p class="lead__title">Project Management</p>
+                <p class="lead__title">Quality Assurance</p>
+            </div>
+            <p class="lead__text">We offer full-stack iOS, Android, and web development services paired with quality
+                design, quality assurance, and professional project management.</p>
         </div>
-        <p class="lead__text">We offer full-stack iOS, Android, and web development services paired with quality
-            design, quality assurance, and professional project management.</p>
+
+
+        <div class="lead__logo-container">
+            <svg style="position: absolute; width: 0; height: 0;" width="0" height="0"   class="svg_sprite">
+                <defs>
+                    <filter id="filter">
+                        <feTurbulence type="fractalNoise" baseFrequency="0.000001 0.000001" numOctaves="1" result="warp"
+                                      seed="1"></feTurbulence>
+                        <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic"
+                                           in2="warp"></feDisplacementMap>
+                    </filter>
+                </defs>
+            </svg>
+            <img src="./images/JTree.svg" alt="" class="lead__logo lead__logo_glitch lead__logo_active">
+        </div>
+
+
+
     </section>
     <section class="intro">
         <h1 class="intro__title">You have a great idea, we want to help you to grow it into a successful business.</h1>

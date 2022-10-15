@@ -23,6 +23,9 @@
 
 /*lead*/
 @import url("../blocks/lead/lead.css");
+@import url("../blocks/lead/__bg/lead__bg.css");
+@import url("../blocks/lead/__logo-container/lead__logo-container.css");
+@import url("../blocks/lead/__logo/lead__logo.css");
 @import url("../blocks/lead/__container/lead__container.css");
 @import url("../blocks/lead/__title/lead__title.css");
 @import url("../blocks/lead/__text/lead__text.css");

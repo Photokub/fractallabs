@@ -1,10 +1,10 @@
-.lead{
+.lead__bg{
     width: 100%;
     height: 620px;
-    /*background-image: url("../../images/lead_BG.png");*/
-   /*background-size: cover;*/
-   /* background-repeat: no-repeat;*/
-   /* background-position: center center;*/
+    background-image: url("../../../images/lead_BG.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -13,8 +13,3 @@
     /*position: relative;*/
     z-index: 1;
 }
-
-/*.lead::before{*/
-
-/*}*/
-
