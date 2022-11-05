@@ -1,0 +1,21 @@
+.title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc(30px + 30 * (100vw / 1152));
+    line-height: 100px;
+
+    color: #FE9401;
+
+    margin: 0;
+
+    transform: translate(0, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+@media screen  and (max-width: 1152px) {
+    .title {
+        line-height: 70px;
+    }
+}

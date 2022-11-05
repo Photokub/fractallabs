@@ -1,0 +1,21 @@
+.title__letter{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc(30px + 30 * (100vw / 1152));
+    line-height: 100px;
+
+    color: #01fe12;
+    opacity: 0;
+    border: 1px dashed #ff536b;
+
+    margin: 0;
+    align-self: center;
+    grid-row: 1/2;
+}
+
+@media screen  and (max-width: 1152px) {
+    .title__letter {
+        line-height: 70px;
+    }
+}

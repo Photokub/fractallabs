@@ -113,17 +113,4 @@ var glitchTimeline = function () {
 
 btnGlitch = new glitchTimeline();
 btnGlitch.start();
-
-// $(".lead__logo")
-//     .on("mouseenter", function () {
-//         $(this).addClass("lead__logo_active");
-//         btnGlitch.start();
-//     })
-//     .on("mouseleave", function () {
-//         var $this = $(this);
-//         if ($this.hasClass("lead__logo_active")) {
-//             $this.removeClass("lead__logo_active");
-//             btnGlitch.stop();
-//         }
-//     });
 // =============glitch lead__logo===========

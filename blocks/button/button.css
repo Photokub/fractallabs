@@ -2,4 +2,8 @@
     width:180px;
     height: 55px;
     grid-row: 3/4;
+
+    transform: translate(0, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
 }

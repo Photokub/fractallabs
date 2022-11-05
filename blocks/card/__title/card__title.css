@@ -1,18 +1,5 @@
 .card__title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: calc(30px + 30 * (100vw / 1152));
-    line-height: 100px;
-
-    color: #FE9401;
-
-    margin: 0;
     align-self: center;
-}
-
-@media screen  and (max-width: 1152px) {
-    .card__title {
-        line-height: 70px;
-    }
+    position: relative;
+    grid-row: 1/2;
 }
